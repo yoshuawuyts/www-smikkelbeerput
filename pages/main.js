@@ -14,8 +14,8 @@ function view () {
     ;(function nope () {
       const time = Date.now() - start
       const backoff = time / 60
-      const saturation = origiSaturation - (backoff * 60)
-      const lighting = origiLighting - (backoff)
+      const saturation = origiSaturation - (backoff / 3)
+      const lighting = origiLighting - (backoff * 1.2)
       const style = `
         height: 100vh;
         background-color: hsla(${hue}, ${saturation}%, ${lighting}%, 1)
