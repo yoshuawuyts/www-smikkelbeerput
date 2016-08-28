@@ -25,7 +25,7 @@ function view () {
       el.setAttribute('style', style)
       if (lighting >= 0) raf(nope)
     })()
-  }, 2222)
+  }, 1666)
 
   return html`
     <section
