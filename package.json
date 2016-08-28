@@ -1,0 +1,21 @@
+{
+  "name": "www-smikkelbeerput",
+  "version": "1.0.0",
+  "description": "[MIT](https://tldrlegal.com/license/mit-license)",
+  "main": "index.js",
+  "scripts": {
+    "start": "bankai start -p 8080 --open",
+    "build": "bankai build && gh-pages -d dist/"
+  },
+  "keywords": [],
+  "author": "Yoshua Wuyts <yoshuawuyts@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "choo": "^3.2.0",
+    "tachyons": "^4.1.2"
+  },
+  "devDependencies": {
+    "bankai": "^3.2.0",
+    "gh-pages": "^0.11.0"
+  }
+}
